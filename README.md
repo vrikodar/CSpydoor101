@@ -6,6 +6,7 @@ The ALL IN ONE weapon to generate inevitable payloads........
 # 𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢
 
 These  Scripts Work Best With Python3
+.../PLEASE RUN THE SCRIPT IN POWERSHELL ON WINDOWS TO AVOID ERRORS WITH TERMCOLOR...../
 
 //Use Python3 to run the Program//
 
