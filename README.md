@@ -14,7 +14,7 @@
 `These  Scripts Work Best With Python3`
 `PLEASE RUN THE SCRIPT IN POWERSHELL ON WINDOWS TO AVOID ERRORS WITH TERMCOLOR`
 
-//Use Python3 to run the Program//
+`Use Python3 to run the Program`
 
 After Successfully Generating the Backdoor.....and Supplying it to Target....run the server.py on your system to receive Connections From the Target.....
 
@@ -24,7 +24,7 @@ The main Script is the v-engine.py used to genrate payloads....other files inclu
 You can also manually compile the client.py using pyinstaller incase you get errors....
 RUn the server.py file as follows.....
 
-// Python3 server.py <LHOST-IP> <LPORT-PORT> //
+`Python3 server.py <LHOST-IP> <LPORT-PORT>`
 
 # 𝑴𝑨𝑲𝑬_𝑰𝑻_𝑩𝑬𝑻𝑻𝑬𝑹
 To make Vaishnavastra Even Better Contribute to it Or use and Report Any Bugs or fixes Required.....
