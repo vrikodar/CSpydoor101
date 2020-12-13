@@ -7,7 +7,7 @@
 # Vaishnavastra
 
 `The ALL IN ONE weapon to generate inevitable payloads........`
-
+`Made By: SxNade`
 
 # 𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢
 
@@ -22,9 +22,9 @@ After Successfully Generating the Backdoor.....and Supplying it to Target....run
 # 𝙍𝙐𝙉𝙉𝙄𝙉𝙂
 The main Script is the v-engine.py used to genrate payloads....other files include the souce code of backdoor and Server...
 You can also manually compile the client.py using pyinstaller incase you get errors....
-RUn the server.py file as follows.....
+Run the server.py file as follows.....
 
-`Python3 server.py <LHOST-IP> <LPORT-PORT>`
+`python3 server.py <LHOST-IP> <LPORT-PORT>`
 
 # 𝑴𝑨𝑲𝑬_𝑰𝑻_𝑩𝑬𝑻𝑻𝑬𝑹
 To make Vaishnavastra Even Better Contribute to it Or use and Report Any Bugs or fixes Required.....
