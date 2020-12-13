@@ -6,7 +6,7 @@
 
 # Vaishnavastra
 
-The ALL IN ONE weapon to generate inevitable payloads........
+`The ALL IN ONE weapon to generate inevitable payloads........`
 
 
 # 𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢
