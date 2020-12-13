@@ -10,11 +10,13 @@
 ![Capture](https://qph.fs.quoracdn.net/main-qimg-87b721bfe465c3e87ed6d8b26a947c6f)
 
 `The ALL IN ONE weapon to generate inevitable payloads........`
+
 `Made By: SxNade`
 
 # 𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢
 
 `These  Scripts Work Best With Python3`
+
 `PLEASE RUN THE SCRIPT IN POWERSHELL ON WINDOWS TO AVOID ERRORS WITH TERMCOLOR`
 
 `Use Python3 to run the Program`
