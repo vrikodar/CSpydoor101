@@ -15,7 +15,7 @@ def transfer(s, path):
         while len(packet) > 0:
             s.send(packet)
             packet = f.read(1024)
-        s.send('[+]DONE'.encode())
+        s.send('DONE'.encode())
     else:
         s.send('FILE NOT FOUND'.encode())
 def connecting():
