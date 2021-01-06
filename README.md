@@ -13,6 +13,8 @@
 
 `Made By: SxNade`
 
+![Capture](https://github.com/SxNade/Vaishnavastra/blob/main/v%20(1).gif)
+
 # 𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢
 
 `These  Scripts Work Best With Python3`
