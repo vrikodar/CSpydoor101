@@ -13,11 +13,9 @@
 
 # 𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢
 
-`These  Scripts Work Best With Python3`
+**works with python3**
 
-`PLEASE RUN THE SCRIPT IN POWERSHELL ON WINDOWS TO AVOID ERRORS WITH TERMCOLOR`
-
-`Use Python3 to run the Program`
+*After running the script v-eng'' the client script with edited with Reverse IP and Port of your choice you can use these scripts in a standalone manner or even comile the client script to an exe to send to the target*
 
 After Successfully Generating the Backdoor.....and Supplying it to Target....run the server.py on your system to receive Connections From the Target.....
 
