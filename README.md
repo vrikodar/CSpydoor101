@@ -1,17 +1,13 @@
 [![SxNade](https://img.shields.io/badge/MadeBy-SxNade-red)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/SxNade)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/SxNade)
-[![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://github.com/SxNade)
 
 
-[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/SxNade)
 
 # Vaishnavastra
-![Capture](https://qph.fs.quoracdn.net/main-qimg-87b721bfe465c3e87ed6d8b26a947c6f)
 
-`The ALL IN ONE weapon to generate inevitable payloads........`
+![](https://qph.fs.quoracdn.net/main-qimg-87b721bfe465c3e87ed6d8b26a947c6f)
 
-`Made By: SxNade`
+`The ALL IN ONE weapon to generate backdoor scripts for windows........`
+
 
 ![Capture](https://github.com/SxNade/Vaishnavastra/blob/main/v%20(1).gif)
 
