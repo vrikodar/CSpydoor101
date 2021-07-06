@@ -1,10 +1,6 @@
-[![SxNade](https://img.shields.io/badge/MadeBy-SxNade-red)
-
-
-
 # CSpydoor101 
 
-![](https://qph.fs.quoracdn.net/main-qimg-87b721bfe465c3e87ed6d8b26a947c6f)
+![](https://www.healthcareitnews.com/sites/hitn/files/hidden-cobra-virus-twitter-712.jpg)
 
 `The ALL IN ONE weapon to generate backdoor scripts for windows........`
 
